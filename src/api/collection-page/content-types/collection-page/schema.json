@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "collection_pages",
+  "info": {
+    "singularName": "collection-page",
+    "pluralName": "collection-pages",
+    "displayName": "Collection Page",
+    "description": "Static content for collection page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "collection.hero"
+    },
+    "filterOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "collection.filter-option"
+    },
+    "showingLabel": {
+      "type": "string",
+      "default": "Showing 12 Artifacts"
+    },
+    "featuredDesigner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "collection.designer-feature"
+    },
+    "newsletter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "collection.newsletter"
+    },
+    "featuredBannerTitle": {
+      "type": "string"
+    },
+    "featuredBannerDescription": {
+      "type": "text"
+    },
+    "featuredBannerButtonLabel": {
+      "type": "string"
+    },
+    "featuredBannerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

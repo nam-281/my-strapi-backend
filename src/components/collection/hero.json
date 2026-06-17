@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_collection_heroes",
+  "info": {
+    "displayName": "Collection Hero"
+  },
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

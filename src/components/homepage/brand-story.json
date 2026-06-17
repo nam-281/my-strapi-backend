@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_homepage_brand_stories",
+  "info": {
+    "displayName": "Brand Story"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "imageAlt": {
+      "type": "string"
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "linkHref": {
+      "type": "string"
+    }
+  }
+}

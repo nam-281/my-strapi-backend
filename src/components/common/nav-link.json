@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_nav_links",
+  "info": {
+    "displayName": "Nav Link"
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

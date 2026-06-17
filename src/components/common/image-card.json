@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_common_image_cards",
+  "info": {
+    "displayName": "Image Card"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "alt": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

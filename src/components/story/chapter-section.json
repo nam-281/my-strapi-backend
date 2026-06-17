@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_story_chapter_sections",
+  "info": {
+    "displayName": "Chapter Section"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "linkHref": {
+      "type": "string"
+    },
+    "imageOne": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "imageOneAlt": {
+      "type": "string"
+    },
+    "imageTwo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "imageTwoAlt": {
+      "type": "string"
+    }
+  }
+}

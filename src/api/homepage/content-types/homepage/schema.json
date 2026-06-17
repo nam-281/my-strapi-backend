@@ -1,0 +1,70 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": "Content for homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.hero",
+      "required": true
+    },
+    "brandStory": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.brand-story"
+    },
+    "featuredCurationsTitle": {
+      "type": "string",
+      "default": "Featured Curations"
+    },
+    "featuredCurationsLabel": {
+      "type": "string",
+      "default": "01 / 03 SERIES"
+    },
+    "featuredCurations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.curation-item",
+      "min": 1
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.quote-block"
+    },
+    "inspirationGalleryTitle": {
+      "type": "string",
+      "default": "Inspiration Gallery"
+    },
+    "inspirationImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.inspiration-image"
+    },
+    "ctaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "ctaTitle": {
+      "type": "string"
+    },
+    "ctaDescription": {
+      "type": "text"
+    }
+  }
+}

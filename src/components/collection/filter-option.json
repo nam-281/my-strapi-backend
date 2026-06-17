@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_collection_filter_options",
+  "info": {
+    "displayName": "Filter Option"
+  },
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": ["category", "material", "designer"],
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

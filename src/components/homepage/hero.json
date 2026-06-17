@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_homepage_heroes",
+  "info": {
+    "displayName": "Homepage Hero"
+  },
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "primaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "secondaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "showroom_subscriptions",
+  "info": {
+    "singularName": "showroom-subscription",
+    "pluralName": "showroom-subscriptions",
+    "displayName": "Showroom Subscription",
+    "description": "Emails submitted from collection page newsletter form"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["pending", "subscribed", "unsubscribed"],
+      "default": "subscribed"
+    },
+    "source": {
+      "type": "string",
+      "default": "collection-newsletter"
+    },
+    "subscribedAt": {
+      "type": "datetime"
+    },
+    "notes": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_collection_designer_features",
+  "info": {
+    "displayName": "Designer Feature"
+  },
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "linkHref": {
+      "type": "string"
+    },
+    "portraitImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "detailImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

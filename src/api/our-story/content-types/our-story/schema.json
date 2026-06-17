@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_stories",
+  "info": {
+    "singularName": "our-story",
+    "pluralName": "our-stories",
+    "displayName": "Our Story",
+    "description": "Content for our story page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.seo"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "story.hero"
+    },
+    "chapterOne": {
+      "type": "component",
+      "repeatable": false,
+      "component": "story.chapter-section"
+    },
+    "pullQuote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.quote-block"
+    },
+    "heritageTitle": {
+      "type": "string"
+    },
+    "heritageContent": {
+      "type": "text"
+    },
+    "heritageImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "heritageImageAlt": {
+      "type": "string"
+    },
+    "bentoCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "story.bento-card"
+    },
+    "showroomEyebrow": {
+      "type": "string"
+    },
+    "showroomTitle": {
+      "type": "string"
+    },
+    "showroomDescription": {
+      "type": "text"
+    },
+    "showroomPrimaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "showroomSecondaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    }
+  }
+}
