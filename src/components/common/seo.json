@@ -6,13 +6,13 @@
   },
   "attributes": {
     "metaTitle": {
-      "type": "string"
+      "type": "text"
     },
     "metaDescription": {
       "type": "text"
     },
     "metaKeywords": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

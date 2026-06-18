@@ -5,16 +5,16 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "content": {
       "type": "text"
     },
     "linkText": {
-      "type": "string"
+      "type": "text"
     },
     "linkHref": {
-      "type": "string"
+      "type": "text"
     },
     "imageOne": {
       "type": "media",
@@ -22,7 +22,7 @@
       "allowedTypes": ["images"]
     },
     "imageOneAlt": {
-      "type": "string"
+      "type": "text"
     },
     "imageTwo": {
       "type": "media",
@@ -30,7 +30,7 @@
       "allowedTypes": ["images"]
     },
     "imageTwoAlt": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

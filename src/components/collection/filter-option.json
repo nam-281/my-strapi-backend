@@ -10,11 +10,11 @@
       "required": true
     },
     "label": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "value": {
-      "type": "string",
+      "type": "text",
       "required": true
     }
   }

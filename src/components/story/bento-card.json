@@ -5,10 +5,10 @@
   },
   "attributes": {
     "indexLabel": {
-      "type": "string"
+      "type": "text"
     },
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
       "type": "text"
@@ -19,7 +19,7 @@
       "allowedTypes": ["images"]
     },
     "imageAlt": {
-      "type": "string"
+      "type": "text"
     },
     "variant": {
       "type": "enumeration",

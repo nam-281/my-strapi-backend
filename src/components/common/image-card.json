@@ -5,10 +5,10 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "subtitle": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
       "type": "text"
@@ -19,10 +19,10 @@
       "allowedTypes": ["images"]
     },
     "alt": {
-      "type": "string"
+      "type": "text"
     },
     "link": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

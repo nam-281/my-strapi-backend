@@ -5,19 +5,19 @@
   },
   "attributes": {
     "eyebrow": {
-      "type": "string"
+      "type": "text"
     },
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "content": {
       "type": "text"
     },
     "linkText": {
-      "type": "string"
+      "type": "text"
     },
     "linkHref": {
-      "type": "string"
+      "type": "text"
     },
     "portraitImage": {
       "type": "media",

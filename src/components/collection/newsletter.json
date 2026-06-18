@@ -5,17 +5,17 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
       "type": "text"
     },
     "placeholder": {
-      "type": "string",
+      "type": "text",
       "default": "email@address.com"
     },
     "buttonLabel": {
-      "type": "string",
+      "type": "text",
       "default": "Subscribe"
     }
   }

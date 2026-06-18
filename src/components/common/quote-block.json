@@ -9,10 +9,10 @@
       "required": true
     },
     "author": {
-      "type": "string"
+      "type": "text"
     },
     "source": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

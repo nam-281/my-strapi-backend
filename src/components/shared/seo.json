@@ -9,7 +9,7 @@
   "options": {},
   "attributes": {
     "metaTitle": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "metaDescription": {

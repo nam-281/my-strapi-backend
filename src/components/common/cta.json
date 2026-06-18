@@ -5,11 +5,11 @@
   },
   "attributes": {
     "label": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "href": {
-      "type": "string"
+      "type": "text"
     },
     "variant": {
       "type": "enumeration",

@@ -5,10 +5,10 @@
   },
   "attributes": {
     "eyebrow": {
-      "type": "string"
+      "type": "text"
     },
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
       "type": "text"

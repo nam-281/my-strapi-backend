@@ -10,7 +10,7 @@
       "allowedTypes": ["images"]
     },
     "alt": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
